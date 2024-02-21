@@ -60,9 +60,9 @@ If you want to rebuild ProcessServer or PsServer application<br>
 
 ## Start cloud_CAE for debug (without using ProcessServer)
 1. Launch HTTP server using a command prompt<br>
-    `cd …/cloud_CAE`
-    `npm install`
-    `npm start`
+    `cd …/cloud_CAE`<br>
+    `npm install`<br>
+    `npm start`<br>
 2. Start PsServer.exe 8889 (giving a port number in command line argument)
 3. Open (using Chrome)<br>
     http://localhost:8000/cloud_CAE.html?viewer=scs&instance=_empty.scs&debug=on&port=8889

@@ -1,0 +1,8 @@
+{
+    "materials":
+    [
+        {"name": "A5052", "density": "2.68", "young": "68000", "poisson": "0.33"},
+        {"name": "SS400", "density": "7.85", "young": "205000", "poisson": "0.3"},
+        {"name": "SUS420J2", "density": "7.75", "young": "200000", "poisson": "0.3"}
+    ]
+}

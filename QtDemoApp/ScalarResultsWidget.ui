@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScalarResultsWidget</class>
+ <widget class="QWidget" name="ScalarResultsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>338</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Scalar results</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>4</number>
+   </property>
+   <property name="rightMargin">
+    <number>4</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Scalar results</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListView" name="scalarResultsListView">
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="settingsGroupBox">
+     <property name="title">
+      <string>Scalar settings</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>4</number>
+      </property>
+      <property name="rightMargin">
+       <number>4</number>
+      </property>
+      <item row="7" column="1">
+       <widget class="QComboBox" name="legendColoringSchemeComboBox"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="rangeMinimumLineEdit"/>
+      </item>
+      <item row="10" column="1">
+       <widget class="QLineEdit" name="filteringMinimumLineEdit"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QCheckBox" name="showNodeAveragedCheckBox">
+        <property name="text">
+         <string>Show Node Averaged</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Minimum:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QCheckBox" name="enableFilteringCheckBox">
+        <property name="text">
+         <string>Enable filtering</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QLineEdit" name="filteringMaximumLineEdit"/>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="rangeMaximumLineEdit"/>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Number of levels:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Legend coloring scheme:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Maximum:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Maximum:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLineEdit" name="numberOfLevelsLineEdit"/>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Minimum:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="useAutoRangeCheckBox">
+        <property name="text">
+         <string>Use auto range</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="showLegendCheckBox">
+        <property name="text">
+         <string>Show legend</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QCheckBox" name="showMaxScalerCheckBox">
+        <property name="text">
+         <string>Show max scaler</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>label_5</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_7</zorder>
+     <zorder>showLegendCheckBox</zorder>
+     <zorder>useAutoRangeCheckBox</zorder>
+     <zorder>rangeMinimumLineEdit</zorder>
+     <zorder>rangeMaximumLineEdit</zorder>
+     <zorder>legendColoringSchemeComboBox</zorder>
+     <zorder>label_2</zorder>
+     <zorder>numberOfLevelsLineEdit</zorder>
+     <zorder>enableFilteringCheckBox</zorder>
+     <zorder>filteringMinimumLineEdit</zorder>
+     <zorder>filteringMaximumLineEdit</zorder>
+     <zorder>label</zorder>
+     <zorder>label_8</zorder>
+     <zorder>showNodeAveragedCheckBox</zorder>
+     <zorder>showMaxScalerCheckBox</zorder>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>47</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

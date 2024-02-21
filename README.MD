@@ -35,8 +35,8 @@ https://www.youtube.com/watch?v=u2jEBdmtBO0
 &emsp;&emsp;+ package.json<br>
 
 ### Environment valiables
-Register the following enviroment valiables
-    Name: `CEW_UG_MODEL_PATH`       Value: <Envision Web SDK>\TestModels\ (Put "\" at the last)
+Register the following enviroment valiables<br>
+    Name: `CEW_UG_MODEL_PATH`       Value: <Envision Web SDK>\TestModels\ (Put "\" at the last)<br>
     Name: `PS_SERVER_WORKING_DIR`   Value: C:\temp\PsServer\ (Create the folder if it doen't exist)
 
 ### PsServer

@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=u2jEBdmtBO0
 
 ## Setup
 ### Demo folders
-&emsp;+ cloud_CAE
+&emsp;+ cloud_CAE<br>
 &emsp;&emsp;+ css<br>
 &emsp;&emsp;+ js<br>
 &emsp;&emsp;+ PsServer<br>
@@ -35,8 +35,8 @@ https://www.youtube.com/watch?v=u2jEBdmtBO0
 &emsp;&emsp;+ package.json<br>
 
 ### Environment valiables
-Register the following enviroment valiables
-    Name: `CEW_UG_MODEL_PATH`       Value: <Envision Web SDK>\TestModels\ (Put "\" at the last)
+Register the following enviroment valiables<br>
+    Name: `CEW_UG_MODEL_PATH`       Value: <Envision Web SDK>\TestModels\ (Put "\" at the last)<br>
     Name: `PS_SERVER_WORKING_DIR`   Value: C:\temp\PsServer\ (Create the folder if it doen't exist)
 
 ### PsServer
@@ -60,9 +60,9 @@ If you want to rebuild ProcessServer or PsServer application<br>
 
 ## Start cloud_CAE for debug (without using ProcessServer)
 1. Launch HTTP server using a command prompt<br>
-    `cd …/cloud_CAE`
-    `npm install`
-    `npm start`
+    `cd …/cloud_CAE`<br>
+    `npm install`<br>
+    `npm start`<br>
 2. Start PsServer.exe 8889 (giving a port number in command line argument)
 3. Open (using Chrome)<br>
     http://localhost:8000/cloud_CAE.html?viewer=scs&instance=_empty.scs&debug=on&port=8889

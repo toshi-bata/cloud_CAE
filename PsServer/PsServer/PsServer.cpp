@@ -14,7 +14,7 @@
 #include <algorithm>
 #include <time.h>
 #include <map>
-#include "..\..\ServerCommon\utilities.h"
+#include "utilities.h"
 
 #define MAX_PARAM_SIZE 256
 #define POSTBUFFERSIZE 1024

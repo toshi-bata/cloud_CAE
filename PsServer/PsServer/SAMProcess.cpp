@@ -3,7 +3,7 @@
 #include "SAMProcess.h"
 #include <stdio.h>
 #include <tchar.h>
-#include "..\..\ServerCommon\utilities.h"
+#include "utilities.h"
 
 #ifndef _DEBUG
 #include "base/base.h"

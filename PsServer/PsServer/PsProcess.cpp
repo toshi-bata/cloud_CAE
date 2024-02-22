@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "PsProcess.h"
-#include "..\..\ServerCommon\utilities.h"
+#include "utilities.h"
 #include <iterator>
 #include "ps_utilities.h"
 

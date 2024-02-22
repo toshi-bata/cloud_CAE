@@ -8,9 +8,9 @@ https://www.youtube.com/watch?v=u2jEBdmtBO0
 - HOOPS Communicator (2024)
 - HOOPS Exchange (2024)
 - Parasolid (34.1)
-- Ceetron Envition for Web (1.8.0_b1eca36a)
-- Ceetron SAM-Eval (1.8.0_22e9e1ad)
-- Ceetron Envision for Desktop (1.8.0_b1eca36a)
+- Ceetron Envition for Web (1.9.0_e2e38f7d)
+- Ceetron SAM-Eval (1.9.3_24418aef)
+- Ceetron Envision for Desktop (1.9.0_e2e38f7d)
 
 ### Third paty module
 - libmicrohttpd (1.0.0-w32-bin)
@@ -27,6 +27,7 @@ https://www.youtube.com/watch?v=u2jEBdmtBO0
 &emsp;&emsp;&emsp;+ PsServer.exe<br>
 &emsp;&emsp;&emsp;+ Parasolid dll files (locate all files in `Parasolid SDK\base\bin`)<br>
 &emsp;&emsp;&emsp;+ Exchange dll files (locate all files in `Exchange SDK\bin\win64_v142`)<br>
+&emsp;&emsp;&emsp;+ Ceetron SAM dll files (locate all files in `Ceetron SAM SDK\thirdparty\abaqus-odb_api-2023-xxx64\lib` and `Ceetron SAM SDK\thirdparty\intelmkl.xxx-x64\lib`)<br>
 &emsp;&emsp;+ src (copy src folder from `Communicator SDK\web_viewer`)<br>
 &emsp;&emsp;+ CEW (copy src folder from `Communicator SDK\web_viewer`)<br>
 &emsp;&emsp;&emsp;+ Common (copy Common folder from `CEW SDK\Examples`)<br>

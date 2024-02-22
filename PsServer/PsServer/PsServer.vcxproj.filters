@@ -39,10 +39,10 @@
     <ClInclude Include="SAMProcess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ServerCommon\utilities.h">
+    <ClInclude Include="ps_utilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ps_utilities.h">
+    <ClInclude Include="utilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -74,7 +74,7 @@
     <ClCompile Include="SAMProcess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ServerCommon\utilities.cpp">
+    <ClCompile Include="utilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -201,7 +201,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(PARASOLID_INSTALL_DIR)\base64_vc14\dll;$(LIBMICRO_INSTALL_DIR)\x86_64\VS2019\Release-static;$(SAM_INSTALL_DIR)\lib\WIN64;$(SAM_INSTALL_DIR)\\thirdparty</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libmicrohttpd.lib;pskernel.lib;CeetronSAM_static.lib;\glew\lib\WIN64\glew.lib;\freetype-2.10.1-src\lib\WIN64\freetype.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbDdbOdb.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbApi.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCore.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCoreGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbAttrEO.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuBasicUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasShared.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasCoreUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasAlloc.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMARomDiagEx.lib;\abaqus-odb_api-2023-win64\lib\ABQSMASimInterface.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libmicrohttpd.lib;pskernel.lib;CeetronSAM_static.lib;\glew\lib\WIN64\glew.lib;\freetype-2.10.1-src\lib\WIN64\freetype.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbDdbOdb.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbApi.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCore.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCoreGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbAttrEO.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuBasicUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasShared.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasCoreUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasAlloc.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMARomDiagEx.lib;\abaqus-odb_api-2023-win64\lib\ABQSMASimInterface.lib;\intelmkl.win-x64\lib\mkl_core_dll.lib;\intelmkl.win-x64\lib\mkl_intel_thread_dll.lib;\intelmkl.win-x64\lib\mkl_rt.lib;\intelmkl.win-x64\lib\mkl_intel_lp64_dll.lib;\intelmkl.win-x64\lib\mkl_scalapack_lp64_dll.lib;\intelmkl.win-x64\lib\mkl_blacs_lp64_dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
@@ -222,12 +222,11 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(PARASOLID_INSTALL_DIR)\base64_vc14\dll;$(LIBMICRO_INSTALL_DIR)\x86_64\VS2019\Release-static;$(SAM_INSTALL_DIR)\lib\WIN64;$(SAM_INSTALL_DIR)\\thirdparty</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libmicrohttpd.lib;pskernel.lib;CeetronSAM_static.lib;\glew\lib\WIN64\glew.lib;\freetype-2.10.1-src\lib\WIN64\freetype.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbDdbOdb.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbApi.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCore.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCoreGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbAttrEO.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuBasicUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasShared.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasCoreUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasAlloc.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMARomDiagEx.lib;\abaqus-odb_api-2023-win64\lib\ABQSMASimInterface.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libmicrohttpd.lib;pskernel.lib;CeetronSAM_static.lib;\glew\lib\WIN64\glew.lib;\freetype-2.10.1-src\lib\WIN64\freetype.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbDdbOdb.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbApi.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCore.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbCoreGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAOdbAttrEO.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuBasicUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasShared.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasCoreUtils.lib;\abaqus-odb_api-2023-win64\lib\ABQSMABasAlloc.lib;\abaqus-odb_api-2023-win64\lib\ABQSMAAbuGeom.lib;\abaqus-odb_api-2023-win64\lib\ABQSMARomDiagEx.lib;\abaqus-odb_api-2023-win64\lib\ABQSMASimInterface.lib;\intelmkl.win-x64\lib\mkl_core_dll.lib;\intelmkl.win-x64\lib\mkl_intel_thread_dll.lib;\intelmkl.win-x64\lib\mkl_rt.lib;\intelmkl.win-x64\lib\mkl_intel_lp64_dll.lib;\intelmkl.win-x64\lib\mkl_scalapack_lp64_dll.lib;\intelmkl.win-x64\lib\mkl_blacs_lp64_dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\ServerCommon\utilities.h" />
     <ClInclude Include="ExProcess.h" />
     <ClInclude Include="PsProcess.h" />
     <ClInclude Include="PsSession.h" />
@@ -235,9 +234,9 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="SAMProcess.h" />
+    <ClInclude Include="utilities.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\ServerCommon\utilities.cpp" />
     <ClCompile Include="ExProcess.cpp" />
     <ClCompile Include="fg.c" />
     <ClCompile Include="frustrum.cpp" />
@@ -254,6 +253,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="SAMProcess.cpp" />
+    <ClCompile Include="utilities.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
